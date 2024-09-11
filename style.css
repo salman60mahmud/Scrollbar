@@ -1,61 +1,64 @@
 :root {
     --color: rgb(211, 171, 118);
-   --padding: 40px;
-}
+    --padding: 30px;
 
-/* font is here */
-@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+    }
 
-.random {
-    color: blueviolet;
-    border-radius: 12px;
-    text-align: center;
-    height: 50px;
-    border: 3px solid #6d775c;
-    background-color: rgba(138, 197, 50, 0.986);
-    background-size: 50%;
-}
+    /* font is here */
+    @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
 
-#one {
-    font-family: "Mate SC", serif;
-    text-align: left;
-    padding: var(--padding);
-    background-color: rgba(71, 96, 175, 0.897);
-    border-radius: 11px;
+    .random {
+        color: rgb(72, 14, 126);
+        padding: 15px 0 10px 50px;
+        height: 50px;
+        border: 1px solid #3a1ac9;
 
+        background-color: rgba(131, 177, 62, 0.986);
+        background-size: 50%;
+    }
 
-}
-
-#two {
-    font-family: "Mate SC", serif;
-    text-transform: lowercase;
-    padding: var(--padding);
-    margin-left: 30px;
-    background-color: var(--color);
-    border-radius: 8px;
-    text-align: center;
-}
-
-#raw {
-    list-style: bengali;
-    background-color: #d89494;
-    list-style-type: "\1F604";
-    border: 2px solid darkmagenta;
-}
+    #one {
+        font-family: "Mate SC", serif;
+        font-size: 18px;
+        text-align: left;
+        padding: var(--padding);
+        background-color: rgba(71, 96, 175, 0.897);
 
 
-/* scrollbar */
+    }
 
-::-webkit-scrollbar {
-    width: 13px;
-}
+    #two {
+        font-family: "Mate SC", serif;
+        text-transform: lowercase;
+        padding: var(--padding);
+        background-color: var(--color);
+        font-size: 18px;
 
-::-webkit-scrollbar-track {
-    background: #d1e5ff;
-    border-radius: 10px;
-}
+    }
 
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(#642bff, #ff22e6);
-    border-radius: 10px);
-}
+    #raw {
+        list-style: bengali;
+        background-color: #d89494;
+        list-style-type: "\1F604";
+        border: 2px solid darkmagenta;
+    }
+
+
+    /* scrollbar */
+
+    ::-webkit-scrollbar {
+        width: 13px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #d1e5ff;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(#642bff, #ff22e6);
+        border-radius: 10px);
+    }
